@@ -36,7 +36,6 @@ p {
 h1,
 h2,
 h3 {
-  color: var(--clr-neutral-100);
   font-family: var(--ff-accent);
   font-weight: 900;
   line-height: 1;
@@ -49,10 +48,9 @@ p {
 }
 
 a {
-  color: var(--clr-neutral-100);
+  color: var(--clr-primary-200);
   text-decoration: none;
   font-size: 2rem;
-  /* margin: 0.3em; */
 }
 
 a:hover {
@@ -71,7 +69,10 @@ header {
   background-color: var(--clr-primary-400);
   background-size: cover;
   background-position: fixed;
-  color: white;
+}
+header h1,
+header p {
+  color: var(--clr-primary-200);
 }
 
 header img {
@@ -119,41 +120,34 @@ section {
 
 .bg-light {
   background-color: var(--clr-primary-200);
-  color: var(--clr-primary-400);
+  color: var(--clr-neutral-900);
 }
-
+.bg-dark {
+  color: var(--clr-primary-200);
+  background-color: var(--clr-primary-600);
+}
 .bg-primary {
-  color: var(--clr-neutral-100);
+  color: white;
   background-color: var(--clr-primary-400);
 }
 
-.bg-dark {
-  color: var(--clr-primary-400);
-  background-color: var(--clr-primary-600);
-}
-#split-container-h2 {
-  color: var(--clr-primary-400);
-}
-.container p,
-.bg-primary h2,
-.bg-dark h2 {
-  color: var(--clr-primary-200);
-}
-.bg-light h2,
-.split p {
-  color: var(--clr-primary-400);
-}
 .text-center {
   text-align: center;
-  color: var(--clr-primary-600);
+  color: var(--clr-primary-400);
+}
+.bg-split {
+  background-color: var(--clr-primary-400);
+}
+.split-color {
+  color: var(--clr-primary-400);
 }
 footer {
   padding: 0.5em;
   text-align: center;
   align-items: center;
   /* background-image: url("./img/bg.jpg"); */
-  background-color: black;
+  background-color: var(--clr-neutral-900);
   background-size: cover;
   background-position: fixed;
-  color: white;
+  color: var(--clr-primary-400);
 }
