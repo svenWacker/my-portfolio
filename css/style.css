@@ -54,20 +54,15 @@ a {
 a:hover {
   opacity: 0.5;
 }
-img {
+/* img {
   display: block;
   max-width: 100%;
-}
+} */
 
 .text-center {
   text-align: center;
 }
-header div {
-  display: flex;
-  align-items: center;
-}
 header {
-  /* display: row; */
   padding: 2em;
   text-align: center;
   align-items: center;
@@ -77,21 +72,12 @@ header {
   background-position: fixed;
   color: white;
 }
-header section {
-  margin: 0 auto;
-  max-width: 640px;
-}
 
 header img {
-  /* display: flex; */
-  max-width: 100%;
   border-radius: 50%;
-  max-width: 150px;
+  max-width: 145px;
+  margin-bottom: 1em;
 }
-/* header div {
-  align-items: center;
-} */
-
 section {
   padding: 4rem 0;
   @media (min-width: 40em) {
