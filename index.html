@@ -31,29 +31,36 @@
       <section class="container">
         <p>
           Hello and thank you for your visit at my portfolio site. I am Sven, a
-          passionate engineer and actually learning web development at DCI
-          (Digital Career Institute). I like new technologies, easy and straight
-          design, make life easier and understandable solutions and so far I
-          love minimum maximum principle user interfaces. I'm focused,
-          dedicated, hard-working and willing to learn in a changing and
-          challenging environment.
+          passionate engineer and actually learning web development at
+          <a class="dci" href="https://digitalcareerinstitute.org/"
+            >DCI (Digital Career Institute).</a
+          >
+          I like new technologies, easy and straight design, make life easier
+          and understandable solutions and so far I love minimum maximum
+          principle user interfaces. I'm focused, dedicated, hard-working and
+          willing to learn in a changing and challenging environment.
         </p>
-        <a href="#https://www.facebook.com/" target="_blank">
+        <a class="social" href="#https://www.facebook.com/" target="_blank">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="#https://www.twitter.com/" target="_blank">
+        <a class="social" href="#https://www.twitter.com/" target="_blank">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="https://github.com/svenWacker" target="_blank">
+        <a class="social" href="https://github.com/svenWacker" target="_blank">
           <i class="fab fa-github-alt"></i>
         </a>
-        <a href="#https://www.instagram.com/" target="_blank">
+        <a class="social" href="#https://www.instagram.com/" target="_blank">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.xing.com/svenwacker" target="_blank">
+        <a
+          class="social"
+          href="https://www.xing.com/profile/Sven_Wacker/cv"
+          target="_blank"
+        >
           <i class="fab fa-xing"></i>
         </a>
         <a
+          class="social"
           href="https://www.linkedin.com/in/sven-wacker-17764a119/"
           target="_blank"
         >
@@ -167,11 +174,15 @@
       </section>
     </main>
     <footer>
-      <p>
-        Created with ❤️ by Sven/
-        <a href="https://www.linkedin.com/in/sven-wacker-17764a119/">LinkedIn</a
-        >/ All copyrights reserved ® <span class="year"></span>
-      </p>
+      <div class="inline">Created with</div>
+      <div class="menu-btn-heart inline">
+        <div class="heart"></div>
+      </div>
+      <div class="inline">by</div>
+      <div class="inline">
+        <a href="mailto:webmaster@example.com">Sven Wacker</a> All copyrights
+        reserved ® <span class="year"></span>
+      </div>
     </footer>
     <script>
       let year = new Date().getFullYear();

@@ -45,12 +45,16 @@ h3,
 p {
   margin-bottom: 2em;
 }
-
-header a {
+.dci {
   color: var(--clr-primary-200);
   text-decoration: none;
-  font-size: 2.3rem;
-  margin: 0.42em;
+  font-size: 2rem;
+}
+.social {
+  color: var(--clr-primary-200);
+  text-decoration: none;
+  font-size: 3.2rem;
+  margin: 0.24em;
 }
 
 a:hover {
@@ -147,12 +151,76 @@ section {
   color: var(--clr-primary-400);
 }
 footer {
-  padding: 0.5em;
-  text-align: center;
+  display: flex;
   align-items: center;
-  /* background-image: url("./img/bg-footer.jpg"); */
+  align-items: row;
+  padding: 0.5em;
   background-color: var(--clr-neutral-900);
   background-size: cover;
   background-position: fixed;
   color: var(--clr-primary-400);
+}
+footer a {
+  color: var(--clr-primary-200);
+  text-decoration: none;
+  font-size: 2.3rem;
+}
+footer div {
+  margin: 0.3em;
+}
+/* .inline {
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+} */
+
+/* animation heart footer*/
+.heart {
+  display: inline-block;
+  /* position: absolute; */
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  transform: rotate(-45deg);
+  animation-name: beat;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.heart:after {
+  background-color: red;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0px;
+  left: 20px;
+}
+.heart:before {
+  background-color: red;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: -20px;
+  left: 0px;
+}
+/* animation heart */
+@keyframes beat {
+  0% {
+    transform: scale(0.9) rotate(-45deg);
+  }
+  50% {
+    transform: scale(0.6) rotate(-45deg);
+  }
+}
+.menu-btn-heart:hover .heart:after,
+.menu-btn-heart:hover .heart::before {
+  background: rgb(163, 9, 9);
+}
+.menu-btn-heart:hover .heart {
+  transform: scale(1.2) rotate(-45deg);
+  background: rgb(163, 9, 9);
+  animation-duration: 0.5s;
 }
