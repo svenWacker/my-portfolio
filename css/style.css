@@ -70,17 +70,13 @@ header {
   text-align: center;
   align-items: center;
   background-color: var(--clr-primary-400);
-  /* background-image: url("../img/bg-top-paint.jpg");
-  background-position: top;
-  background-repeat: none;
-  background-size: cover; */
 }
 header h1 {
   color: var(--clr-primary-200);
 }
 header p {
   color: var(--clr-primary-200);
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 header img {
@@ -164,9 +160,7 @@ footer {
 footer a {
   color: var(--clr-primary-200);
   text-decoration: none;
-  /* font-family: var(--ff-accent); */
   font-weight: 900;
-  /* font-size: 1.5em; */
 }
 .inline {
   margin: 0.3em;
@@ -174,7 +168,6 @@ footer a {
 /* animation heart footer*/
 .heart {
   display: inline-block;
-  /* position: absolute; */
   background-color: red;
   height: 40px;
   width: 40px;
