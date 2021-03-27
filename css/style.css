@@ -20,7 +20,7 @@
 body {
   font-family: var(--ff-primary);
   font-weight: 400;
-  font-size: 1.625em;
+  font-size: 1.85em;
   line-height: 1.6;
 }
 
@@ -39,8 +39,9 @@ h3 {
   font-weight: 900;
   line-height: 1;
 }
-
-h2,
+h2 {
+  margin-bottom: 1em;
+}
 h3,
 p {
   margin-bottom: 1em;
@@ -97,7 +98,7 @@ section {
 
 .container {
   margin-inline: auto;
-  width: min(90%, 70.5rem);
+  width: min(90%, 75.5rem);
 }
 
 .split {
@@ -125,7 +126,7 @@ section {
 
 .bg-light {
   background-color: var(--clr-primary-200);
-  color: var(--clr-neutral-900);
+  color: var(--clr-primary-400);
 }
 .bg-dark {
   color: var(--clr-primary-200);
@@ -135,7 +136,9 @@ section {
   color: white;
   background-color: var(--clr-primary-400);
 }
-
+.bg-text {
+  background-color: var(--clr-neutral-100);
+}
 .text-center {
   text-align: center;
   color: var(--clr-primary-400);
@@ -213,4 +216,12 @@ footer a {
   transform: scale(1.2) rotate(-45deg);
   background: rgb(163, 9, 9);
   animation-duration: 0.5s;
+}
+.languages {
+  line-height: 2.3em;
+}
+.balancing,
+.jobs {
+  font-weight: bold;
+  line-height: 1.9em;
 }
