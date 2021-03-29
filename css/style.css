@@ -97,6 +97,7 @@ section {
     }
   }
 }
+/* responsive design */
 .container {
   margin-inline: auto;
   width: min(90%, 75.5rem);
