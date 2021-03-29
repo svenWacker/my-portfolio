@@ -155,6 +155,9 @@ section {
   font-weight: bold;
   line-height: 1.9em;
 }
+article {
+  padding-bottom: 2rem;
+}
 .code {
   color: var(--clr-primary-200);
   text-decoration: none;
